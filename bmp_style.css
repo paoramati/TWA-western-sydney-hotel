@@ -1,0 +1,182 @@
+h1 {
+	
+	float:top;
+   	color:white;
+   	text-align:center;
+	font-size: 3.5em;
+}
+
+#head {
+	background-color:black;
+	font-family:"estrangelo edessa";
+	color:white;
+	padding:5px;
+	text-align:center;
+
+}
+
+#head img {
+	float:left;
+	padding: 0px;
+	overflow:auto;
+}
+
+#bottom {
+	background-color:black;
+	float:bottom;
+}
+
+
+h3 {
+	font-size: 0.9em;
+	font-style: oblique;
+}
+
+body {
+	font-family: tahoma;
+}
+
+
+div.nav {
+    line-height:30px;
+    
+}
+
+div.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+div.nav li {
+	float: left;
+}
+
+div.nav li a {
+    font-family:tahoma;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+div.nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+div.nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.invalid {
+	border:	1px solid #ff0000;
+}
+
+div.error {
+	color: red;
+	border: solid 1px;
+	padding: 4px;
+}
+
+div.error ul li {
+	list-style-type: circle;
+	font-size: 0.9em;
+}
+
+.error {
+	color: red;
+}
+
+span.error {
+	font-size: 80%;
+}
+
+#section {
+	text-align:centre;
+}
+
+#errorList {
+	display:inline-block;
+}
+
+div.instructions {
+
+	margin: 2px;
+	text-align:left;
+	color: #333333;
+}
+
+div.instructions p {
+	font-size:0.8em;
+}
+
+h4 {
+	text-decoration: underline;
+}
+
+div.confirm h3 {
+	font-style: normal;
+	font-size: 1.1em;
+}
+
+div.confirm {
+	font-size: 0.9em;
+	color: blue;
+}
+
+
+
+
+
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+
+
+label {
+	width:140px;
+	display: inline-block;
+	font-family:calibri;
+	padding:3px;
+	margin:3px;
+}
+
+input {
+	display: inline-block;
+	padding:3px;
+	margin:3px;
+}
+
+form {
+	display:inline-block;
+
+}
+
+fieldset {
+	display:inline-block;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+img {
+	
+	float:right;
+	max-width:100%;
+	height:auto;
+
+
+}
+
+	

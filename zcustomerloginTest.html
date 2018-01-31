@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Western Sydney Hotel: Customer Login</title>
+		<link rel="stylesheet" type="text/css" href="bmp_style.css">
+	</head>
+	<body>
+		<div id="head">
+			<h1>Western Sydney Hotel</h1>
+		</div>
+		
+		<div class="nav">
+
+		</div>
+		
+		<img id="room2" src="images/checkin5.jpg" alt="WSH Lobby" width="700" height="auto">
+		
+		<h2>Customer Login</h2>
+		<h3>Please enter your username and password to search rooms and make bookings</h3>
+		
+		<form action="" method="post">
+			
+			<label for="username">Username</label>
+			<input type="text" name="username" id="username" value="<?php echo $username; ?>">
+			<span class="error" id="usernameMsg"></span>
+			<br>
+				
+			<label for="password">Password</label>
+			<input type="text" name="password" id="password" onblur="checkPassword(this)" value="">
+			<span class="error" id="passwordMsg"></span>
+			<br>
+			
+			<input class="sub" type="submit" name="submit" value="Finish">
+			<input type="reset" name="reset" value="Reset">
+		
+		</form>
+		
+
+	</body>
+</html>
